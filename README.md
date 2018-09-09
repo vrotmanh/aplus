@@ -1,9 +1,10 @@
+
+The front end for A+plus can be found here: [Check Aplus](https://aplus-frontend.herokuapp.com/)
+
 # A+plus
 A+plus: work smarter. A decentralized course note marketplace, curated by experts, run by smart contracts. 
 
 A+plus is a decentralized course note marketplace that allows university students to make their notes available for sale. Others may purchase those notes, with payment settled via smart contract (SC). A token curated registry of experts (the “A+plus Expert List”), as well as other users, provide attestations to reflect the quality and credibility of marketplace-listed course notes that they feel are particularly useful and valuable.   
-
-The front end for A+plus can be found here: [Check Aplus](https://aplus-frontend.herokuapp.com/)
 
 # A+plus DDEX
 
