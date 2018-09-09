@@ -1,6 +1,4 @@
-# Want to see what we've built through the eyes of our end-users? 
-
-# Check out the a+plus marketplace: [Check Aplus](https://aplus-frontend.herokuapp.com/)
+# Want to see what we've built through the eyes of our end-users? Check out the a+plus marketplace: [Check Aplus](https://aplus-frontend.herokuapp.com/)
 
 # A+plus
 A+plus: work smarter. A decentralized course note marketplace, curated by experts, run by smart contracts. 
