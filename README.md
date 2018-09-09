@@ -1,7 +1,7 @@
 # A+plus
 A+plus: work smarter. A decentralized course note marketplace, curated by experts, run by smart contracts. 
 
-A+plus is a decentralized course note marketplace that allows university students to make their notes available for sale. Others may purchase those notes, with payment settled via smart contract. A token curated registry of experts (the “A+plus Expert List”), as well as other users, provide attestations to reflect the quality and credibility of marketplace-listed course notes that they feel are particularly useful and valuable.   
+A+plus is a decentralized course note marketplace that allows university students to make their notes available for sale. Others may purchase those notes, with payment settled via smart contract (SC). A token curated registry of experts (the “A+plus Expert List”), as well as other users, provide attestations to reflect the quality and credibility of marketplace-listed course notes that they feel are particularly useful and valuable.   
 
 The front end for A+plus can be found here: [Check Aplus](https://aplus-frontend.herokuapp.com/)
 
@@ -19,20 +19,20 @@ This repo contains the smart contracts of the Decentralized Exchange Market and 
 [Click here to check the repo](https://github.com/passabilities/aplus-frontend)
 This repo contains the UI code. Which is a rect + redux frontend app that integrates the Linnia Protocol to store and manage data plus the interaction with the TCR, A+plus DDEX and A+plus ERC-20 Token.
 
-# Platform Explanation
+# A+plus User Experience Explanation
 
 Alice is a very good student and has great notes. She also would love to earn some money selling them.
-Alice goes to A+plus website, upload her notes to Linnia Protocol (Decentralized Data Protocol) and list them to sell in the A+plus DDEX. For that she choose a price and then a Listing is created in the AplusListings SC.
+Alice goes to A+plus website, upload her notes to the Linnia Protocol (an open-source Decentralized Data Protocol) and list them to sell in the A+plus DDEX. She choose a price for which she is willing to sell her notes, and then a Listing was created in the AplusListings SC.
 
-Bob is very behind for his exam and is desperate to find good notes to save his ass. He goes to A+plus website and found notes for a very affordable price that are validates buy many experts. (This are Alice Notes)
+Bob is very behind for his exam and is desperate to find good notes to save his ass. He goes to A+plus website and found notes for a very affordable price that are validates buy many experts. (These happen to be Alice's Notes, but Bob doesn't know it's her)
 
-A+plus contains a TCR list of experts. People that can verudy that notes are good notes of different subjects. This attestations also occur using the Linnia Protocol. 
+A+plus contains a TCR list of experts. People with subject matter expertise that can verify that notes are good notes of different subjects. This attestations also occur using the Linnia Protocol. 
 
-Bob decide to acquire the notes.
-He send the money, which creates an Escrow in the AplusEscrows SC. This way the Escrow SC keep the money until the seller send the actual note.
+Bob decides to purchase this set of notes.
+He sends the ETH, which creates an Escrow in the AplusEscrows SC. This way the Escrow SC keep the money until the seller send the actual note.
 
 Now Alice receives a notification that smeone wants to acquire her notes.
-She enter A+plus website and approve the transaction. In order to do that, the frontend retrieve the original notes from IPFS and ask Alice to use her Linnia Private Encryption Key in order to decrypt the data.
+She enters A+plus website and approves the transaction. In order to do that, the frontend retrieves the original notes from IPFS and asks Alice to use her Linnia Private Encryption Key in order to decrypt the data.
 
 After that, using the Linnia Public Encryption Key that Bob provides the notes are encrypted again and stored in Linnia.
 
