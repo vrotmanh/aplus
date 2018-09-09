@@ -11,14 +11,30 @@ A+plus is a decentralized course note marketplace that allows university student
 [Click here to check the repo](https://github.com/vrotmanh/aplus-ddex)
 This repo contains the smart contracts of the Decentralized Exchange Market and the ERC20 Token
 + [AplusEscrows](https://github.com/vrotmanh/aplus-ddex/blob/master/contracts/AplusEscrows.sol)
+[Contract in Ropsten](https://ropsten.etherscan.io/address/0x1f1298f6b99034fbee1db00ddadd06258bb6b368)
+
 + [AplusListings](https://github.com/vrotmanh/aplus-ddex/blob/master/contracts/AplusListings.sol)
+[Contract in Ropsten](https://ropsten.etherscan.io/address/0xae73ddac98cb901defe802904172495396b486ce)
+
 + [AplusFaucet](https://github.com/vrotmanh/aplus-ddex/blob/master/contracts/faucetContracts/AplusFaucet.sol)
+[Contract in Ropsten](https://ropsten.etherscan.io/address/0xA90C8007Caf00fC9bf8178F25e40F6b48E26DCCA)
 
 
 # A+plus UI
 
 [Click here to check the repo](https://github.com/passabilities/aplus-frontend)
 This repo contains the UI code. Which is a rect + redux frontend app that integrates the Linnia Protocol to store and manage data plus the interaction with the TCR, A+plus DDEX and A+plus ERC-20 Token.
+
+# A+plus TCR and Token
+
+For the TCR we used a common TCR repo and deploy, the code is here
+[Click here to check the repo](https://github.com/skmgoldin/tcr)
+
++ Aplus ERC-20 Token
+[Contract in Ropsten](https://ropsten.etherscan.io/address/0xA90C8007Caf00fC9bf8178F25e40F6b48E26DCCA)
+
++ TCR
+[Contract in Ropsten](https://ropsten.etherscan.io/address/0xb9d7152FAF3685732d5D67baDc4fC58af0E65a81)
 
 # A+plus User Experience Explanation
 
