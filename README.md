@@ -47,7 +47,7 @@ A+plus contains a TCR list of experts. People with subject matter expertise that
 Bob decides to purchase this set of notes.
 He sends the ETH, which creates an Escrow in the AplusEscrows SC. This way the Escrow SC keep the money until the seller send the actual note.
 
-Now Alice receives a notification that smeone wants to acquire her notes.
+Now Alice receives a notification that someone wants to acquire her notes.
 She enters A+plus website and approves the transaction. In order to do that, the frontend retrieves the original notes from IPFS and asks Alice to use her Linnia Private Encryption Key in order to decrypt the data.
 
 After that, using the Linnia Public Encryption Key that Bob provides the notes are encrypted again and stored in Linnia.
